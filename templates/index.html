@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+    <title>formTag</title>
+  </head>
+  <script type="text/javascript" src="../static/js/main.js"></script>
+  <body>
+    <div class="div_top">
+      <h1>Send an SMS Using Twilio</h1>
+    </div>
+    <hr />
+    <div class="div_body">
+      <form method="POST">
+        <ul>
+          <li>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              name="to"
+              placeholder="받으실 분 번호를 입력해주세요. (+817031040296)"
+            /><br />
+          </li>
+          <li>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              name="write"
+              placeholder="메세지를 입력해주세요."
+            /><br />
+            <input
+              class="w3-button w3-block w3-green"
+              type="submit"
+              value="문자보내기"
+              name="submit"
+            />
+            <span class="s1"><h4>{{to}} {{text}}</h4></span>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>

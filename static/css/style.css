@@ -1,0 +1,53 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+body .div_top {
+  color: lightblue;
+  background-color: lightblue;
+  border-top: 20px solid;
+  border-bottom: 20px solid;
+}
+
+body .div_body {
+  /* background-color: red; */
+  color: lightblue;
+  background-color: lightblue;
+  border-top: 20px solid;
+  border-bottom: 100px solid;
+  border-left: 30px solid;
+}
+
+div .s1 {
+  color: white;
+}
+
+.w3-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 30%;
+}
+.w3-border {
+  border: 2px solid #ccc !important;
+}
+
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.w3-block {
+  display: block;
+  width: 20%;
+}
+.w3-green,
+.w3-hover-green:hover {
+  color: #fff !important;
+  background-color: rgb(3, 80, 116) !important;
+}
